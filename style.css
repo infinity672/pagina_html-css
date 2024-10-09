@@ -1,0 +1,194 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    padding: 0 15px;
+    background-color: gainsboro;
+}
+.container img{
+    width: 8%;
+    border-radius: 250%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.hero {
+    position: relative;
+    overflow: hidden;
+    height: 490px;
+}
+.hero img {
+    width: 100%;
+    height: 400px;
+}
+.youtube-icon {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    top: 200px;
+}
+.youtube-icon img {
+    width: 350px;
+    height: 300px;
+}
+.technologies {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+.technologies img {
+    height: 150px;
+    width: auto;
+}
+hr {
+    height: 2px;
+    width: 95%;
+    background-color: rgb(141, 132, 132);
+}
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 40px 0;
+}
+.services, .products {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.card {
+    background: #eeeded;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(40.333% - 23%);
+}
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-content {
+    padding: 20px;
+}
+.card h3 {
+    margin: 0 0 10px 0;
+}
+.price {
+    margin: 0%;
+    font-weight: bold;
+    color: #4CAF50;
+}
+.quienes-somos {
+    margin-bottom: 40px;
+    padding-left: 2.5%;
+}
+.quienes-somos img {
+    width: 95%;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.quienes-somos p {
+    line-height: 1.6;
+    width: 95%;
+}
+.footer-img img{
+    width: 100%;
+    height: 115px;
+}
+
+.contact {
+    width: 95%;
+    padding-left: 2.5%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.contact-info {
+    flex-basis: 45%;
+}
+.contact-form {
+    flex-basis: 50%;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.contact-form textarea {
+    height: 100px;
+}
+.contact-form button {
+    background-color: #4a0e78;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 103%;
+}
+.whatsapp-button {
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.whatsapp-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+footer {
+    background-color: #000;
+    color: white;
+    height: 210px;
+}
+.container-footer {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.social-icons {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.social-icon {
+    width: 40px;
+    height: 40px;
+}
+.center-redes{
+    position: relative;
+    top: 60px;
+}
+.footer-logo {
+    width: 100px;
+    display: block;
+    margin: -35px auto;
+}
+.p-copy{
+    width: 20%;
+    position: relative;
+    left: 85%;
+    top: -32px;
+}
